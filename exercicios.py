@@ -82,21 +82,50 @@ import math
 # print("A frase sem espaços no inicio e no final é:", frase)
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-data = input("Digite uma data no formato dd/mm/aaaa: ")
-dia, mes, ano = data.split("/")
-print("Dia:", dia)
-print("Mes:", mes)
-print("Ano:", ano)
+# data = input("Digite uma data no formato dd/mm/aaaa: ")
+# dia, mes, ano = data.split("/")
+# print("Dia:", dia)
+# print("Mes:", mes)
+# print("Ano:", ano)
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+# texto_1 = input("Digite o primeiro texto: ")
+# texto_2 = input("Digite o segundo texto: ")
+# concatena = texto_1 + texto_2
+# print("O texto concatenado é:", concatena)
+
 
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+# valor1 = input("Digite o valor booleano 1: ")
+# valor2 = input("Digite o valor booleano 2: ")
+# resultado_and = valor1 and valor2
+# print("Resultado do AND é", resultado_and)
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# valor1 = input("Digite o valor booleano 1: ")
+# valor2 = input("Digite o valor booleano 2: ")
+# resultado_or = valor1 or valor2
+# print("Resultado do AND é", resultado_or)
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+# valor1 = input("Digite o valor booleano 1: ")
+# resultado_not = not valor1
+# print("Resultado do NOT é:", resultado_not)
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# valor1 = input("Digite o valor 1: ")
+# valor2 = input("Digite o valor 2: ")
+# resultado_igualdade = valor1 == valor2
+# print("Resultado da igualdade é:", resultado_igualdade)
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+valor1 = input("Digite o valor 1: ")
+valor2 = input("Digite o valor 2: ")
+resultado_diferenca = valor1 != valor2
+print("Resultado da diferenca é:", resultado_diferenca)
+
 
 # #### try-except e if
 
